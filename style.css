@@ -1,0 +1,19 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+}
+
+.emoji-container {
+    text-align: center;
+}
+
+.emoji {
+    font-size: 6rem;
+}
+
+.code {
+    font-size: 1rem;
+    display: inline-block;
+    border: 1px solid black;
+}
